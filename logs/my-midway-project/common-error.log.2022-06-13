@@ -1,0 +1,22 @@
+2022-06-13 23:47:36,782 ERROR 24192 [-/::ffff:127.0.0.1/-/698ms GET /baidu] TypeError: result.data.getElementById is not a function
+    at HomeController.updateData (D:\projectAll\midway_test\midway-project\src\controller\home.ts:25:29)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\projectAll\midway_test\midway-project\src\middleware\report.middleware.ts:13:22
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\info\dist\middleware\info.middleware.js:35:24
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\i18n\dist\middleware.js:138:17
+    at async bodyParser (D:\projectAll\midway_test\midway-project\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\core\dist\baseFramework.js:239:36
+    at async midwayRootMiddleware (D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\koa\dist\framework.js:70:13)
+2022-06-13 23:48:02,584 ERROR 32312 [-/::1/-/340ms GET /baidu] TypeError: result.data.getElementById is not a function
+    at HomeController.updateData (D:\projectAll\midway_test\midway-project\src\controller\home.ts:25:29)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\projectAll\midway_test\midway-project\src\middleware\report.middleware.ts:13:22
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\info\dist\middleware\info.middleware.js:35:24
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\i18n\dist\middleware.js:138:17
+    at async bodyParser (D:\projectAll\midway_test\midway-project\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\core\dist\baseFramework.js:239:36
+    at async midwayRootMiddleware (D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\koa\dist\framework.js:70:13)

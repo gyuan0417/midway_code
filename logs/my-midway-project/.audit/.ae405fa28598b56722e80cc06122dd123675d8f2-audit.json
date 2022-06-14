@@ -1,0 +1,30 @@
+{
+  "keep": {
+    "days": true,
+    "amount": 31
+  },
+  "auditLog": "D:\\projectAll\\midway_test\\midway-project\\logs\\my-midway-project\\.audit\\.ae405fa28598b56722e80cc06122dd123675d8f2-audit.json",
+  "files": [
+    {
+      "date": 1654696977850,
+      "name": "D:\\projectAll\\midway_test\\midway-project\\logs\\my-midway-project\\midway-core.log.2022-06-08",
+      "hash": "05c6723ef63fa2eda00597275ce5f05b"
+    },
+    {
+      "date": 1654772691733,
+      "name": "D:\\projectAll\\midway_test\\midway-project\\logs\\my-midway-project\\midway-core.log.2022-06-09",
+      "hash": "eb5b8397ac5e56450022720bf8df6ece"
+    },
+    {
+      "date": 1655120322358,
+      "name": "D:\\projectAll\\midway_test\\midway-project\\logs\\my-midway-project\\midway-core.log.2022-06-13",
+      "hash": "2eb30212e9b54ea03864006909a0d85f"
+    },
+    {
+      "date": 1655136031206,
+      "name": "D:\\projectAll\\midway_test\\midway-project\\logs\\my-midway-project\\midway-core.log.2022-06-14",
+      "hash": "42c02feb81d8d13818a994c878af8153"
+    }
+  ],
+  "hashType": "md5"
+}

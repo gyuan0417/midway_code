@@ -1,0 +1,58 @@
+2022-06-08 22:30:46,188 WARN 15760 [-/::ffff:127.0.0.1/-/47ms POST /updata] NotFoundError: /updata Not Found
+    at notFound (D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\koa\dist\framework.js:64:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\projectAll\midway_test\midway-project\src\middleware\report.middleware.ts:13:22
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\info\dist\middleware\info.middleware.js:35:24
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\i18n\dist\middleware.js:138:17
+    at async bodyParser (D:\projectAll\midway_test\midway-project\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\core\dist\baseFramework.js:239:36
+    at async midwayRootMiddleware (D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\koa\dist\framework.js:70:13) {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2022-06-08 23:18:05,461 ERROR 1400 [-/::ffff:127.0.0.1/-/616ms GET /baidu] TypeError: data.toString(...).join is not a function
+    at HomeController.updateData (D:\projectAll\midway_test\midway-project\src\controller\home.controller.ts:25:28)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\projectAll\midway_test\midway-project\src\middleware\report.middleware.ts:13:22
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\info\dist\middleware\info.middleware.js:35:24
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\i18n\dist\middleware.js:138:17
+    at async bodyParser (D:\projectAll\midway_test\midway-project\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\core\dist\baseFramework.js:239:36
+    at async midwayRootMiddleware (D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\koa\dist\framework.js:70:13)
+2022-06-08 23:19:49,932 ERROR 11316 [-/::ffff:127.0.0.1/-/339ms GET /baidu] TypeError: data.text is not a function
+    at HomeController.updateData (D:\projectAll\midway_test\midway-project\src\controller\home.controller.ts:25:17)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\projectAll\midway_test\midway-project\src\middleware\report.middleware.ts:13:22
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\info\dist\middleware\info.middleware.js:35:24
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\i18n\dist\middleware.js:138:17
+    at async bodyParser (D:\projectAll\midway_test\midway-project\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\core\dist\baseFramework.js:239:36
+    at async midwayRootMiddleware (D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\koa\dist\framework.js:70:13)
+2022-06-08 23:19:55,133 ERROR 11316 [-/::ffff:127.0.0.1/-/157ms GET /baidu] TypeError: data.text is not a function
+    at HomeController.updateData (D:\projectAll\midway_test\midway-project\src\controller\home.controller.ts:25:17)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\projectAll\midway_test\midway-project\src\middleware\report.middleware.ts:13:22
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\info\dist\middleware\info.middleware.js:35:24
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\i18n\dist\middleware.js:138:17
+    at async bodyParser (D:\projectAll\midway_test\midway-project\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\core\dist\baseFramework.js:239:36
+    at async midwayRootMiddleware (D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\koa\dist\framework.js:70:13)
+2022-06-08 23:19:57,685 ERROR 11316 [-/::ffff:127.0.0.1/-/233ms GET /baidu] TypeError: data.text is not a function
+    at HomeController.updateData (D:\projectAll\midway_test\midway-project\src\controller\home.controller.ts:25:17)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\projectAll\midway_test\midway-project\src\middleware\report.middleware.ts:13:22
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\info\dist\middleware\info.middleware.js:35:24
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\i18n\dist\middleware.js:138:17
+    at async bodyParser (D:\projectAll\midway_test\midway-project\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at async D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\core\dist\baseFramework.js:239:36
+    at async midwayRootMiddleware (D:\projectAll\midway_test\midway-project\node_modules\@midwayjs\koa\dist\framework.js:70:13)
